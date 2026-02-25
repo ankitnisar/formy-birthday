@@ -69,6 +69,16 @@ body {
   z-index: 2;
 }
 
+.hero-copy h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.4rem;
+  color: var(--accent-dark);
+  margin-bottom: 2rem;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -124,6 +134,15 @@ h1 {
 
 /* Mobile-friendly button layout */
 @media (max-width: 480px) {
+  .hero-copy h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.9rem;
+    color: var(--accent-dark);
+    margin-bottom: 2rem;
+  }
   .question-area {
     display: flex;
     flex-direction: column;
