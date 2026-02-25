@@ -1,0 +1,4 @@
+.DS_Store
+assets/*.jpg
+node_modules
+package-lock.json
